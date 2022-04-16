@@ -18,7 +18,6 @@ class CreateProduksTable extends Migration
             $table->String('nama');
             $table->String('deskripsi');
             $table->integer('harga');
-            $table->String('img_url');
             $table->timestamps();
         });
     }

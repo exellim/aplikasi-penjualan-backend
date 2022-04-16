@@ -21,9 +21,6 @@ class CreateKunjungansTable extends Migration
             $table->dateTime('jam_mulai')->nullable(false);
             $table->dateTime('jam_selesai')->nullable(true);
             $table->text('catatan')->nullable(true);
-            $table->String('emp_number');
-            $table->boolean('kunjungan_value')->default(0);
-            $table->boolean('tujuan_value')->default(0);
             $table->timestamps();
         });
     }

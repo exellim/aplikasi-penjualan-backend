@@ -21,6 +21,8 @@ class CreateNotaFaktursTable extends Migration
             $table->json('nama_produk');
             $table->json('qty_produk');
             $table->json('harga_produk');
+            $table->json('subtotal_harga');
+            $table->enum('status', ['approved', 'rejected', 'pending'])->default('pending');
             $table->timestamps();
         });
     }
