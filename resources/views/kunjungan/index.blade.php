@@ -1,13 +1,13 @@
 @extends('layouts.app')
 
 @section('content')
-    <h1>Dashboard</h1>
+    <h1>Kunjungan</h1>
     <div class="row">
         <div class="col-lg-12 grid-margin stretch-card">
             <div class="card">
                 <div class="card-body">
                     <div class="table-responsive">
-                        <h5>Kunjungan</h5>
+                        <h5>Daftar Kunjungan</h5>
                         <br>
                         <div class="card-description">
                             <div style="align-items: flex-end">

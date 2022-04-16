@@ -1,13 +1,13 @@
 @extends('layouts.app')
 
 @section('content')
-    <h1>Dashboard</h1>
+    <h1>Customer</h1>
     <div class="row">
         <div class="col-lg-12 grid-margin stretch-card">
             <div class="card">
                 <div class="card-body">
                     <div class="table-responsive">
-                        <h5>Customer List</h5>
+                        <h5>Daftar Customer</h5>
                         <br>
                         <form action="{{ route('customer.index') }}" method="get" id="formSearch">
                             <div class="input-group">
@@ -22,7 +22,7 @@
                         <div class="card-description">
                             <div style="align-items: flex-end">
                                 <a href="{{ route('customer.create') }}"><button type="button"
-                                        class="btn btn-success btn-rounded btn-fw">+ Add
+                                        class="btn btn-success btn-rounded btn-fw">+ Tambah
                                         Customer</button></a>
                             </div>
                         </div>

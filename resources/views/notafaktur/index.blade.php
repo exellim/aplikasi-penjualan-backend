@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <h1>Dashboard</h1>
+    <h1>Nota</h1>
     <div class="row">
         <div class="col-lg-12 grid-margin stretch-card">
             <div class="card">
@@ -13,7 +13,7 @@
                             <div style="align-items: flex-end">
                                 <a href="{{ route('nota.create') }}"><button type="button"
                                         class="btn btn-success btn-rounded btn-fw">+ Buat
-                                        Rencana Kunjungan</button></a>
+                                        Nota Baru</button></a>
                             </div>
                         </div>
                         <br>
